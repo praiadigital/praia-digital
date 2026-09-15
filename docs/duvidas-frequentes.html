@@ -1,0 +1,1 @@
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=/docs/"><link rel="canonical" href="/docs/"></head><body><a href="/docs/">Página movida</a></body></html>
