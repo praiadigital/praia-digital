@@ -227,3 +227,13 @@ footer {
 .booking-cta { display: inline-flex; align-items: center; justify-content: center; padding: 0.7rem 1rem; border-radius: 999px; background: var(--ocean); color: var(--white); font-weight: 700; text-decoration: none; margin-top: 0.5rem; }
 .booking-cta:hover { background: #055c91; }
 .booking-disclosure { font-size: 0.8rem; color: #6b7280; margin-top: 0.6rem; line-height: 1.45; }
+
+/* ==== Nav: mobile igual ao desktop (menu sempre visível) ====
+   Sobrescreve os blocos inline @media (max-width: 980px) das páginas
+   que escondiam .pd-nav-menu no mobile sem botão hambúrguer funcional. */
+@media (max-width: 980px) {
+  .pd-nav-menu { display: flex !important; flex-wrap: wrap !important; }
+  .pd-nav-toggle { display: none !important; }
+  .pd-nav-group { width: auto; justify-content: flex-start; }
+  .pd-nav-label { border-right: 1px solid rgba(255,255,255,0.35); border-bottom: none; width: auto; }
+}
